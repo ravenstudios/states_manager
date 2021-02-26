@@ -69,7 +69,9 @@ def draw():
 
 
     if state == "paused":
-        pass
+        surface.fill((123, 36, 73))#background
+        all_group.draw(surface)
+        pygame.display.flip()
 
 
 
